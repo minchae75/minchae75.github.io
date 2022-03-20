@@ -7,7 +7,7 @@ function getClock() {
   const minutes = String(Now.getMinutes()).padStart(2, "0");
   const seconds = String(Now.getSeconds()).padStart(2, "0");
   const year = String(Now.getFullYear());
-  const month = String(Now.getMonth() + 1);
+  const month = String(Now.getMonth() + 1); // 날짜 데이터 수정
   const date = String(Now.getDate());
   calander.innerText = `${year}년 ${month}월 ${date}일`;
   clock.innerText = `${hours}시 ${minutes}분 ${seconds}초`;
