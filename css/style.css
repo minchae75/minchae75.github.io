@@ -1,0 +1,112 @@
+@font-face {
+  font-family: LeeSeoyun;
+  src: url(LeeSeoyun.ttf);
+}
+
+h2 {
+  display: inline;
+  font-size: 30px;
+}
+
+#logIn {
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgba(110, 173, 224, 0.5);
+  font-weight: bold;
+}
+
+#Info {
+  margin-top: 300px;
+  font-family: LeeSeoyun;
+  color: white;
+  opacity: 20;
+  text-align: center;
+}
+
+#greeting {
+  font-size: 400%;
+  text-align: center;
+  font-family: LeeSeoyun;
+  color: white;
+}
+
+#clock {
+  color: rgb(110, 173, 224);
+}
+
+#calander {
+  color: rgb(110, 173, 224);
+}
+
+#weather {
+  text-align: right;
+  color: white;
+  font-family: LeeSeoyun;
+}
+
+#name {
+  width: 300px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgba(233, 233, 233, 0.5);
+}
+
+#login-form {
+  font-family: LeeSeoyun;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#todo-input {
+  width: 550px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgba(233, 233, 233, 0.5);
+  margin-left: 35%;
+}
+
+#todo-list {
+  width: 350px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgba(233, 233, 233, 0.5);
+  margin-top: 20px;
+  margin-left: 40%;
+  list-style: none;
+  font-family: LeeSeoyun;
+  font-size: large;
+  text-align: center;
+}
+
+#quote {
+  font-family: LeeSeoyun;
+  text-align: center;
+  color: white;
+}
+
+#delbutton {
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgba(233, 233, 233, 0);
+}
+
+.hidden {
+  display: none;
+}

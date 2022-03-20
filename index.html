@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Momentum App</title>
+  </head>
+  <body>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="Info">
+      <h2>오늘은</h2>
+      <h2 id="calander"></h2>
+      <h2>입니다.</h2>
+      <br /><br />
+      <h2>현재 시각은</h2>
+      <h2 id="clock">00:00:00</h2>
+      <h2>입니다.</h2>
+    </div>
+    <form class="hidden" id="login-form">
+      <input
+        id="name"
+        required
+        maxlength="15"
+        type="text"
+        placeholder="이름을 입력해주세요"
+      />
+      <input id="logIn" type="submit" value="로그인" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form">
+      <input
+        id="todo-input"
+        type="text"
+        placeholder="할 일을 적고 엔터키를 눌러주세요."
+        required
+      />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span><br /><br />
+      <span></span>
+    </div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
